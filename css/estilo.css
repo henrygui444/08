@@ -1,0 +1,75 @@
+:root {
+  --cor-azul: #1e3a8a;
+  --cor-dourado: #e2b007;
+  --cor-vermelho: #d9534f;
+  --cor-cinza: #f0f4f8;
+}
+
+/* Centraliza todo o conteúdo da página */
+#conteudo {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: var(--cor-cinza);
+  border: 1px solid var(--cor-azul);
+  border-radius: 8px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: var(--cor-azul);
+}
+
+/* Título principal com id */
+#titulo-principal {
+  font-family: Georgia, serif;
+  color: var(--cor-vermelho);
+  margin-bottom: 20px;
+}
+
+/* Parágrafo com classe */
+.texto-destaque {
+  font-family: Verdana, sans-serif;
+  color: var(--cor-dourado);
+  margin-bottom: 20px;
+}
+
+/* Menu principal centralizado com classe */
+.menu-principal {
+  background-color: var(--cor-azul);
+  padding: 10px 0;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.menu-principal ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;  /* centraliza os itens do menu */
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-principal a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+  transition: background-color 0.3s;
+}
+
+.menu-principal a:hover {
+  background-color: var(--cor-dourado);
+  color: var(--cor-azul);
+}
+
+/* Imagens com classe para tamanho adequado */
+.img-adequada {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(30, 58, 138, 0.3);
+}
